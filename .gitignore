@@ -10,3 +10,6 @@ venv/
 
 # VS Code
 **/.vscode/
+
+# Dataset files
+/credit-card-fraud-detection/data/*.csv

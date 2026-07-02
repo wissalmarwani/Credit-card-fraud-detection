@@ -1,0 +1,12 @@
+# Root virtual environment
+venv/
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+
+# Notebook state
+**/.ipynb_checkpoints/
+
+# VS Code
+**/.vscode/

@@ -7,3 +7,10 @@ xgboost
 lightgbm
 catboost
 jupyter
+fastapi
+uvicorn
+streamlit
+pydantic
+requests
+pytest
+httpx

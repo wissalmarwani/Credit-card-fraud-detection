@@ -50,7 +50,7 @@ st.markdown("<h1 class='main-title'>🔍 Détecteur de Fraude sur Cartes Bancair
 st.markdown("<p class='subtitle'>Saisissez les informations de la transaction ci-dessous pour évaluer sa légitimité en temps réel grâce au Modèle Hybride (FastAPI + XGBoost + Isolation Forest).</p>", unsafe_allow_html=True)
 
 # URL de l'API FastAPI
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://credit-card-fraud-detection-jzms.onrender.com/predict"
 
 # Layout en deux colonnes : Formulaire de saisie à gauche, résultats à droite
 col_input, col_result = st.columns([2, 1.5])
